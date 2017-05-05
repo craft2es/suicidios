@@ -39,7 +39,15 @@ section {
 	display: block;
 	position: relative;
 	width: 100%;
+}
+
+.home section {
+	width: 100%;
 	height: 100%;
+}
+
+.hero {
+	/* height: 80vh; */
 }
 
 .center {
@@ -187,7 +195,8 @@ ul li{
 
 
 .video section {
-	height: 200vh; 
+	width: 100%;
+	/* height: 200vh;  */
 }
 
 .video .titulo {
@@ -203,8 +212,37 @@ ul li{
 
 }
 
-iframe{
-    width: 700px;
-    height: 395px;
+section iframe {
+    display: block;
+    width: 960px;
+    height: 540px;
 	text-align: center;
+	margin: 0 auto;
+	/* margin-top: -30px; */
+	position: relative;
+}
+
+.content{
+	min-height: 100vh;
+	padding-top: 50px;
+}
+
+.text{
+	max-width: 620px;
+	margin: 27px auto;
+	line-height: 1.9rem;
+	font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
+	font-size: 18px;
+
+}
+
+.dropcap{
+
+	font-size: 60px ;
+	font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
+	font-weight: 900;
+	float: left;
+	margin-right: 12px;
+	margin-bottom: 1px;
+    padding-top: 9px;
 }
