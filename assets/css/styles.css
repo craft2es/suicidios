@@ -201,6 +201,10 @@ ul li{
 	letter-spacing: 0px;
 	z-index: 1;
 
-	
+}
 
+iframe{
+    width: 700px;
+    height: 395px;
+	text-align: center;
 }
