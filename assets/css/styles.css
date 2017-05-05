@@ -12,6 +12,8 @@ html, body {
 	height: 100%;
 	font-size: 14px;
 	font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
+	padding: 0;
+	margin: 0;
 }
 
 
@@ -102,11 +104,21 @@ nav ul {
 	margin: 0 auto;
 }
 
-li {
+.menu li {
 	width: 33%;
 	float: left;
 }
 
+.menu a {
+	padding: 15px 0;
+	color: rgba(255, 255, 255, 1.0);
+	text-decoration: none; 
+	text-align: center;
+}
+
+.menu a:hover {
+	color: rgba(255, 255, 255, 0.7);
+}
 
 li a {
 	font-size: 1.4rem;
@@ -126,4 +138,69 @@ li a {
 		font-size: 1.7rem;
 		bottom: 60px;
 	}
+}
+
+.video nav {
+	position: fixed;
+	bottom: auto;
+	top: 0;
+}
+
+.navigation {
+	width: 100%;
+	top:0;
+	background: #2F343B;
+	padding: 0;
+	z-index: 2;
+	text-align: center;
+}
+
+.item {
+	text-align: center;
+	font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
+	/*  */
+	padding: 0 5%;
+}
+
+.item a {
+
+	float: left;
+	display: block;
+	font-size: 1rem;
+	font-weight: bold;
+	width: 25%;
+	padding: 15px 0;
+	color: rgba(255, 255, 255, 1.0);
+	text-decoration: none; 
+	text-align: center;
+}
+
+.item a:hover {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+ul li{
+
+	list-style: none;
+}
+
+
+
+.video section {
+	height: 200vh; 
+}
+
+.video .titulo {
+
+	text-align: center;
+	color: black;
+	font-size: 7rem;
+	line-height: 6rem;
+	padding: 12px;
+	font-family: 'Bebas Neue','Helvetica Neue', Helvetica, Arial ,sans-serif;
+	letter-spacing: 0px;
+	z-index: 1;
+
+	
+
 }
