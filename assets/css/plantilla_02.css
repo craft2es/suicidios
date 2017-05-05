@@ -26,6 +26,7 @@
 .intro{
   color: white;
   font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
+ 
 }
 
 .audio {
@@ -41,6 +42,8 @@
   display: none;
 
 }
+
+
 
 audio {
   text-align: center;
