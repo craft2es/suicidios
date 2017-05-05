@@ -7,6 +7,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nixie+One');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @font-face {
     font-family: 'Bebas Neue';
     src: url('fonts/bebasneue_bold-webfont.woff2') format('woff2'),
@@ -16,12 +17,15 @@
 }
 
 
+
+
+
 .reveal .slide-aligned-left {
   text-align: left;
 }
 .intro{
   color: white;
-  font-family: 'Bebas Neue','Helvetica Neue', Helvetica, Arial ,sans-serif;
+  font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
 }
 
 .audio {
@@ -107,9 +111,11 @@ body {
 }
 
 .reveal p {
-  font-size: 0.9em !important;
+  font-size: 0.9em;
   line-height: 1.6;
   padding-top: 32px;
+  font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
+  color: black;
 }
 
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal p, .reveal a {
@@ -330,16 +336,24 @@ header {
   z-index: 1000;
   position: absolute;
   width: 100%;
+
 }
 
 .navigation {
-  width: 100%;
-  top:0;
-  height: 60px;
-  background: #2F343B;
-  padding: 0;
-  z-index: 2;
-  text-align: center;
+    width: 100%;
+    top: 0;
+    height: 43px;
+    background: #2F343B;
+    padding: 0;
+    z-index: 2;
+    text-align: center;
+    margin-top: -21px;
+    padding-top: 13px;
+    padding-bottom: 25px;
+}
+
+#comenzar{
+  font-family:'Montserrat', Helvetica, Arial ,sans-serif ;
 }
 
 .item {
