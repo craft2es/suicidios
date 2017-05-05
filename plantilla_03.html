@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>Plantilla con control de audio</title>
+
+
+        <link rel="stylesheet" href="assets/css/reveal.css">
+
+        <link rel="stylesheet" href="assets/css/plantilla_02.css">
+
+        <script src='assets/js/jquery.min.js'></script>
+
+
+    </head>
+    <body>
+        <div class="audio">
+            <audio id="entrevista" controls="controls">
+              <source src="assets/audios/audioslide_craft_espanol.wav" type="audio/wav">
+            </audio>
+        </div>
+        <div class="reveal">
+            <div class="slides">
+                <section class="slide-aligned-left" data-background-image="file:///Users/MariaCamilaMontatnez/Documents/craftii/repos/cuny17/audio/bianca/ejercicios/parte_2/plantillas/assets/images/bianca.jpg">
+                    <h1>Sufrir en <br>Silencio</h1>
+                    <p class=intro>“Sabes, hablas de la salud mental y  muchas veces es como  <br> si estuvieras usando malas palabras.<br></p>
+                    <a href="#" class="navigate-next" id="comenzar">Comenzar</a>
+                </section>
+
+                <!-- Cada slide se cambia automáticamente utilizando segundos, en el siguiente caso, 5 segundos (expresado 5000 milisegundos) -->
+
+                <section class="slide-aligned-center">
+                    <h2>No fue nada premeditado. No me desperté ese día sabiendo que iba a intentar suicidarme.  </h2>
+                </section>
+
+                <section class="slide-aligned-center">
+                    <p>This is Bianca Mercado. She was born in the Bronx, New York when her mom was 16 years old and her dad 15. Her family is from Puerto Rico.  </p>
+                </section>
+
+                <section class="slide-aligned-center">
+                    <p>She is one of the many teenage Latinas who have attempted to commit suicide.</p>
+                </section>
+                <section class="slide-aligned-center">
+                    <h2>She is now 28 years old and finally is willing to share her experience.</h2>
+                </section>
+                  <section class="slide-aligned-center">
+                    <h2>yo pienso que en tu mente de nina, tomas una pastilla y asumes que algo va a pasar. </h2>
+                </section>
+
+                <section class="slide-aligned-center">
+                    <p>Creo que pasó un tiempo y todavia no sentia nada entonces tome mas pastillas y cuando menos lo pensé, me las había tomado todas. </p>
+                </section>
+
+                <section class="slide-aligned-center">
+                    <p></p>
+                </section>
+
+
+
+                <section class="slide-aligned-center">
+                    <p>The issues began because Bianca and her stepfather did not get along. She felt rejected by him and his family. They criticize her because she was the only Mercado in the Gonzalez family</p>
+                    </section>
+
+                     <section class="slide-aligned-center">
+                    <p></p>
+                </section>
+
+                    <section class="slide-aligned-center">
+                    <p>Creo que una de las cosas que me provocó hacerlo fue como la familia de mi padrastro se burlaba de mi.</p>
+                </section>
+                    <section class="slide-aligned-center">
+                    <p>Solo recuerdo ir al baño y yo ya estaba vomitando. Estaba vomitando de color fosforescente. Y estaba vomitando profusamente.</p>
+                </section>
+                    <section class="slide-aligned-center">
+                    <p>Estaba vomitando mucho...ya la manera de que trataron de salvar la situación fue dándome carbón.</p>
+                </section>
+                  <section class="slide-aligned-center">
+                    <h2> Entonces tomé carbón y recuerdo lo difícil que era tragarmelo por lo espeso y arenoso que se sentía para que absorbiera las drogas que estaban en mi el torrente sanguíneo. </h2>
+                </section>
+
+                <section class="slide-aligned-center">
+                    <p>La ironía, en retrospectiva, fue que las pastillas eran para quitar el dolor. Y en muchos sentidos, eso es exactamente lo que trate de hacer.</p>
+                </section>
+
+                <section class="slide-aligned-center">
+                    <p></p>
+                </section>
+
+                  <section class="slide-aligned-center">
+                    <p> When she left the hospital, she went to psychiatric clinic. She stayed there for a few months with other teenagers who were going through similar situations.</p>
+                    </section>
+
+                <section class="slide-aligned-center">
+                    <p> She could not walk for a while. Bianca says it took her time to talk with the psychologists about her issues.</p>
+                    </section>
+
+                    <section class="slide-aligned-center">
+                    <p>It was her first time expressing everything she had inside.  </p>
+                    </section>
+            
+                  <section class="slide-aligned-center">
+                    <h2>Sabes, hablas de la salud mental y  muchas veces es como si estuvieras usando malas palabras.</h2>
+                </section>
+
+                
+
+
+
+            </div>
+        </div>
+        <script src="assets/js/head.min.js"></script>
+        <script src="assets/js/reveal.js"></script>
+        <script>
+
+
+            $(document).ready(function() {
+
+                // Array para guardar el tiempo en el momento que cambiamos cada slide.
+                // Cada valor en el array esta expresado en segundos acumulados.
+                var tiempoTransicion = [6,14,18,22,29,40,44,55,59,73,80,90,102,113,117,123,130,136];
+                // Posición del array tiempoTransicion
+                var marcaActual = 0;
+                // Selecciono el objeto de audio.
+                var entrevista = $('#entrevista');
+                // Extraigo la duración.
+                var duracion = entrevista.prop('duration');
+                // Extraigo la posición actual del audio.
+                var posicion = entrevista.prop('currentTime');
+
+                // Inicio haciendo click en el botón comenzar, para darle "Play" al audio. El slide se ejecuta vía Reveal.js, class="navigate-next"
+                $('#comenzar').on('click', function() {
+                    entrevista.trigger('play');
+                });
+
+                // Listener o evento que detecta si hubo un cambio en slide.
+                Reveal.addEventListener( 'slidechanged', function(event, setTime) {
+
+                    // Si accidentalmente me cambio de slide sin usar el botón comenzar, entonces ejecuto el audio.
+
+                    // Caso contrario, pongo el audio en pausa y lo vuelvo a cero.
+
+                    if (Reveal.getState().indexh === 0) {
+                        entrevista.trigger('pause');
+                        entrevista.prop('currentTime',0);
+                    } else {
+                        entrevista.trigger('play');
+                    }
+
+                });
+
+
+
+                // Función para ejecutar siguiende slide.
+                function cambiarSlide() {
+                    Reveal.next();
+                    marcaActual += 1;
+                }
+
+                // Listener o evento que extrae el tiempo actual del audio.
+                // Sin función actualmente.
+                entrevista.on('timeupdate', function() {
+                    posicion = entrevista.prop('currentTime');
+                    if (posicion > 0 && posicion >= tiempoTransicion[marcaActual]) {
+                        cambiarSlide();
+                    }
+                });
+
+
+
+            });
+            // More info https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                history: false,
+                controls: false,
+                center: true,
+                progress: false,
+                width: "100%",
+                height: "100%"
+            });
+        </script>
+    </body>
+</html>
