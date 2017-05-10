@@ -95,7 +95,7 @@ nav {
 	width: 35%;
 	margin-top: 15px;
 	height: 2px;
-	background-color: white;
+	background-color: black;
 	float: left;
 }
 
@@ -115,6 +115,7 @@ nav ul {
 .menu li {
 	width: 33%;
 	float: left;
+
 }
 
 .menu a {
@@ -122,6 +123,7 @@ nav ul {
 	color: rgba(255, 255, 255, 1.0);
 	text-decoration: none; 
 	text-align: center;
+	
 }
 
 .menu a:hover {
@@ -130,7 +132,8 @@ nav ul {
 
 li a {
 	font-size: 1.4rem;
-	color: white;
+	color: black;
+
 }
 
 @media (max-width : 1200px) {
