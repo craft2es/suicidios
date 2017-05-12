@@ -239,6 +239,15 @@ section iframe {
 
 }
 
+.textenglish{
+	max-width: 620px;
+	margin: 3px auto;
+	line-height: 1.9rem;
+	font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
+	font-size: 21px;
+
+}
+
 .dropcap{
 
 	font-size: 60px ;
