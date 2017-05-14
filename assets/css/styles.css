@@ -258,3 +258,16 @@ section iframe {
 	margin-bottom: 1px;
     padding-top: 9px;
 }
+
+.imagen {
+	max-width: 80%;
+	height: auto;
+	display: block;
+/* 	margin: auto;
+ */    /* width: 50%; */
+   /*  border: 3px solid green; */
+  	padding: 20px, 20px, 0px, 20px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+ /*   
