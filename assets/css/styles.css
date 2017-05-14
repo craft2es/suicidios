@@ -99,12 +99,26 @@ nav {
 	float: left;
 }
 
+.mainline {
+	display: block;
+	width: 20%;
+	margin-top: 15px;
+	height: 3px;
+	background-color: black;
+	float: left;
+}
 .menu {
 	position: relative;
 	display: block;
 	width: 30%;
 	float: left;
+}
 
+.mainmenu {
+	position: relative;
+	display: block;
+	width: 60%;
+	float: left;
 }
 
 nav ul {
@@ -112,8 +126,15 @@ nav ul {
 	margin: 0 auto;
 }
 
+
 .menu li {
 	width: 33%;
+	float: left;
+
+}
+
+.mainmenu li{
+width: 20%;
 	float: left;
 
 }
@@ -121,6 +142,14 @@ nav ul {
 .menu a {
 	padding: 15px 0;
 	color: rgba(255, 255, 255, 1.0);
+	text-decoration: none; 
+	text-align: center;
+	
+}
+
+.mainmenu a {
+	padding: 15px 0;
+	color: black;
 	text-decoration: none; 
 	text-align: center;
 	
@@ -270,4 +299,35 @@ section iframe {
     margin-left: auto;
     margin-right: auto;
    }
- /*   
+    
+
+ figcaption {
+	font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
+	font-size: 1.0rem;
+	padding-top: 10px;
+	/* width: 800px; */
+	align-items: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dosimgv {
+	display: inline-block;
+    position: relative;
+    margin: 1%;
+    /* float: left; */
+    max-width: 47%;
+    min-width: 30%;
+    height: auto;
+ /*    margin-right: 40px; */
+}
+
+.imgbreak {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	max-width: 100%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+}
