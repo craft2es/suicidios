@@ -419,20 +419,26 @@ ul li{
 }
 
 .mainline {
-  display: block;
-  width: 20%;
-  margin-top: 15px;
-  height: 3px;
-  background-color: black;
-  float: left;
-}
+     display: block;
+    width: 20%;
+    margin-top: 15px;
+    height: 3px;
+    background-color: black;
+    float: left;
+
+  }
 
 .mainmenu {
   position: relative;
-  display: block;
-  width: 60%;
-  float: left;
-}
+    display: block;
+    width: 51%;
+    float: left;
+    margin-top: -7px;
+    margin-left: 96px;
+    font-weight: bold;
+
+  }
+
 
 .mainmenu li{
 width: 20%;
