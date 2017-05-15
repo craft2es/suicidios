@@ -371,6 +371,17 @@ section iframe {
 	margin-left: auto;
 	margin-right: auto;
 
+
+}
+
+.imgbreak:hover{
+	opacity: 0.7;
+    filter: alpha(opacity=50);
+
+}
+
+.fotosection{
+	display: inline-block;
 }
 
 /* footer*/
@@ -382,4 +393,6 @@ footer{
     padding: 20px 0;
 
 }
+
+
     
