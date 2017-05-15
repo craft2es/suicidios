@@ -228,10 +228,30 @@ li a {
  iframe {
 
     width: 300px;
-    display: block;
+  
  
 }
 
+	.hs-responsive-embed-youtube {
+
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+
+	 margin-left: -18px;
+
+
+
+
+	}
+
+	.hs-responsive-embed-youtube iframe {
+
+	position: absolute;
+
+	width: 100%!important;
+
+	height: 100%!important;
+}
 
 
 }
@@ -334,7 +354,7 @@ section iframe {
 .subtitulo{
 	max-width: 600px;
 	margin: 9px auto;
-	line-height: 1.9rem;
+	    line-height: 2.1rem;
 	font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
 	font-size: 28px;
 	text-align: center;
@@ -426,6 +446,9 @@ footer{
     padding: 20px 0;
 
 }
+
+
+
 
 
     
