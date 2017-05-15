@@ -44,6 +44,14 @@ html, body {
  
 }
 
+.navaudio{
+
+  text-align: center;
+  margin-top: 10px;
+      width: 105%;
+
+}
+
 .audio {
   position: absolute;
   z-index: 1000;

@@ -47,6 +47,12 @@ body {
   background-color: #fff;
   color: #000; }
 
+  .navid{
+  text-align: center;
+  margin-top: 25px;
+      width: 105%;
+}
+
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
