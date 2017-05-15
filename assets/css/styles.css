@@ -361,16 +361,18 @@ font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
 font-size: 25px;
  line-height: 36px;
  text-align: center;
- width:150px;
+ width:200px;
  margin:0 0 3px 15px;
  padding:5px 0 5px 0;
  border-top:3px double #999;
  border-bottom:3px double #999;
- text-align:center;
- float:right;
  font-style: italic;
-   } 
 
+   } 
+.quotecenter{
+	text-align: center;
+
+}
 
 .subtitulo{
 	max-width: 600px;
