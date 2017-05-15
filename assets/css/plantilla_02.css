@@ -6,6 +6,15 @@
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Nixie+One');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @font-face {
@@ -17,7 +26,13 @@
 }
 
 
-
+html, body {
+  height: 100%;
+  font-size: 14px;
+  font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
+  padding: 0;
+  margin: 0;
+}
 
 
 .reveal .slide-aligned-left {
@@ -388,3 +403,47 @@ ul li{
 
   list-style: none;
 }
+
+.video nav {
+ 
+  bottom: auto;
+  top: 0;
+}
+
+.mainline {
+  display: block;
+  width: 20%;
+  margin-top: 15px;
+  height: 3px;
+  background-color: black;
+  float: left;
+}
+
+.mainmenu {
+  position: relative;
+  display: block;
+  width: 60%;
+  float: left;
+}
+
+.mainmenu li{
+width: 20%;
+  float: left;
+
+}
+
+
+.mainmenu a {
+  padding: 15px 0;
+  color: black;
+  text-decoration: none; 
+  text-align: center;
+  
+}
+
+li a {
+  font-size: 1.4rem;
+  color: black;
+
+}
+

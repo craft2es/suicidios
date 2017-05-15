@@ -56,8 +56,6 @@ section {
 	text-align: center;
 }
 
-
-
 .title {
 	color: white;
 	position: absolute;
@@ -84,7 +82,7 @@ section {
 }
 
 nav {
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	bottom: 320px;
 	text-align: center;
@@ -119,6 +117,7 @@ nav {
 	display: block;
 	width: 60%;
 	float: left;
+	margin-top: 10px;
 }
 
 nav ul {
@@ -181,7 +180,7 @@ li a {
 }
 
 .video nav {
-	position: fixed;
+	position: absolute;
 	bottom: auto;
 	top: 0;
 }
