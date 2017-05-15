@@ -14,6 +14,7 @@ html, body {
 	font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
 	padding: 0;
 	margin: 0;
+	margin-right: -37px;
 }
 
 
@@ -390,7 +391,7 @@ footer{
     color: white;
     text-align: center;
     font-family: 'Raleway',sans-serif;
-    padding: 20px 0;
+    padding: 10px 0;
 
 }
 
