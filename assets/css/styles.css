@@ -372,3 +372,14 @@ section iframe {
 	margin-right: auto;
 
 }
+
+/* footer*/
+footer{
+	background: black;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway',sans-serif;
+    padding: 20px 0;
+
+}
+    

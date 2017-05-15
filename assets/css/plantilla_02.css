@@ -47,9 +47,18 @@ html, body {
 .navaudio{
 
   text-align: center;
-  margin-top: 10px;
+  margin-top: 25px;
       width: 105%;
 
+}
+
+.mainmenu a:hover{
+  color: red;
+
+}
+
+.sufrir{
+  margin-left: 40px;
 }
 
 .audio {
