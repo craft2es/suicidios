@@ -72,7 +72,7 @@ section {
 .dec {
 	color: white;
 	position: absolute;
-	bottom: 60px;
+	bottom: 36px;
 	width: auto;
 	margin: 0 20%;
 	font-size: 1.7rem;
@@ -170,6 +170,7 @@ width: 20%;
 .dosimgv:hover{
 	opacity: 0.7;
     filter: alpha(opacity=50);
+
 }
 
 .imagen:hover{
@@ -200,20 +201,42 @@ li a {
 
 }
 
-@media (max-width : 1200px) {
+@media (max-width : 970px) {
 	.head-img {
 	  left: 50%;
 	  margin-left: -512px;
 	}
 	.title {
-		bottom: 160px;
-		font-size: 12rem;
+		bottom: 200px;
+		font-size: 8rem;
 	}
 	.dec {
-		font-size: 1.7rem;
+		font-size: 1.2rem;
 		bottom: 60px;
 	}
+
+	nav{
+		bottom: 500px;
+
+	}
+
+	.line{
+
+		display: none;
+	}
+
+ iframe {
+
+    width: 300px;
+    display: block;
+ 
 }
+
+
+
+}
+
+
 
 .video nav {
 	position: absolute;
@@ -306,6 +329,16 @@ section iframe {
 	line-height: 1.9rem;
 	font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
 	font-size: 18px;
+}
+
+.subtitulo{
+	max-width: 600px;
+	margin: 9px auto;
+	line-height: 1.9rem;
+	font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 1px;
 
 }
 

@@ -132,6 +132,7 @@ body {
 .reveal h1 {
   font-size: 3em;
   text-shadow: none;
+  padding-top: 22px;
 }
 
 .reveal h2 {
@@ -149,7 +150,7 @@ body {
 .reveal p {
   font-size: 0.9em;
   line-height: 1.6;
-  padding-top: 32px;
+  padding-top: 20px;
   font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
   color: black;
 }
