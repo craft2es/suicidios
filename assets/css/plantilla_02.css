@@ -53,7 +53,7 @@ html, body {
 }
 
 .mainmenu a:hover{
-  color: red;
+  color: grey;
 
 }
 
@@ -408,7 +408,7 @@ header {
 }
 
 #comenzar a:hover{
-  color: red;
+  color: grey;
 }
 
 .item {
