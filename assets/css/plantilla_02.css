@@ -89,6 +89,20 @@ audio {
   text-align: left;
   line-height: 1.055em !important; }
 
+  #quote{
+  font-family: 'Bebas Neue','Helvetica Neue', Helvetica, Arial ,sans-serif;
+  margin: 0 0 20px 0;
+  color: #22264b;
+  font-weight: normal;
+  line-height: 0.8em;
+  letter-spacing: -0.002em;
+  text-shadow: none;
+  word-wrap: break-word;
+  font-size: 60px;
+ }
+
+  
+
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
