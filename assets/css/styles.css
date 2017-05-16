@@ -23,11 +23,6 @@ html, body {
 
 
 .head-img {
-/* 	position: relative;
-	width: 1270px;
-	height: 695px;
-	margin-bottom: 50px;
-	 */
   position: fixed;
   top: 0;
   left: 0;
@@ -105,10 +100,6 @@ nav {
 	    width: 105%;
 
 }
-
-
-
-
 
 
 .line {
