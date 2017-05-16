@@ -472,6 +472,62 @@ footer{
 
 }
 
+/* Bar Style*/
+
+.bar{
+background: #608b8a;
+border: solid;
+border-color: #355d70;
+width: 200px;
+height: 40px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.race{
+
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	width: 79px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.parent{
+
+	display: block;
+	margin: 10px;
+}
+
+
+.numero{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	width: 79px;
+	margin-left: inherit;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.box{
+	max-width: 550px;
+	margin:10px auto;
+	border-top: black solid;
+	border-bottom: black solid;
+
+}
+
+.stats{
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	margin-top: 25px;
+	font-style: italic;
+
+
+}
+
 
 
 
