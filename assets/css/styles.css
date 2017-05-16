@@ -114,8 +114,8 @@ nav {
 }
 
 .asterisk {
-	max-width: 620px;
-	margin: 27px auto;
+	max-width: 102px;
+	margin: 0 auto;
 	line-height: 1.9rem;
 	font-family: 'Bebas Neue','Helvetica Neue', Helvetica, Arial ,sans-serif;
 	font-size: 36px;
@@ -434,7 +434,25 @@ font-size: 28px;
   	padding: 20px, 20px, 0px, 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -19px;
+   }
 
+   #michelle{
+
+   	padding-top: 37px;
+   }
+    
+  .imagendos {
+	max-width: 100%;
+	height: auto;
+	display: block;
+/* 	margin: auto;
+ */    /* width: 50%; */
+   /*  border: 3px solid green; */
+  	padding: 20px, 20px, 0px, 20px;
+    margin-left: auto;
+    margin-right: auto;
+  
    }
     
 
@@ -529,7 +547,7 @@ vertical-align: middle;
 }
 
 .box{
-	max-width: 550px;
+	max-width: 626px;
 	margin:10px auto;
 	border-top: black solid;
 	border-bottom: black solid;

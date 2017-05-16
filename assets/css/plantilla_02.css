@@ -464,6 +464,7 @@ ul li{
     margin-top: -7px;
     margin-left: 96px;
     font-weight: bold;
+    color: grey;
 
   }
 
@@ -477,7 +478,7 @@ width: 20%;
 
 .mainmenu a {
   padding: 15px 0;
-  color: black;
+  color: grey;
   text-decoration: none; 
   text-align: center;
   
