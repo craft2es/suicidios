@@ -170,6 +170,15 @@ nav {
     margin-left: 19px;
 }
 
+.hamburgerdos{
+
+	display: none;	
+    font-size: 50px;
+    color: black;
+    float: left;
+    margin-left: 19px;
+}
+
 .mainmenu {
 	position: relative;
     display: block;
@@ -275,8 +284,25 @@ li a {
 	text-align: center;
 	width: 124px;
 	display: none;
-	    height: 174px;
+	height: 174px;
 }
+
+.navdos{
+
+	position: absolute;
+	top: 22px;
+    margin-left: 22px;
+	background:white;
+	border:5px solid black;
+	font-family: 'Cabin', sans-serif;
+	font-size:30px;
+	text-align: center;
+	width: 124px;
+	display: none;
+	height: 155px;
+}
+
+
 .nav-item{
 	border-top:3px solid white;
 	border-bottom:3px solid white;
@@ -292,7 +318,20 @@ transition:0.25s all;
 
 }
 
+.hamburgerdos{
+display: inline-block;
+transition:0.25s all;
+
+}
+
 .nav-item {
+	width: 50%;
+	float: left;
+	display: block;
+
+}
+
+.nav-itemdos {
 	width: 50%;
 	float: left;
 	display: block;
@@ -309,13 +348,28 @@ transition:0.25s all;
 	margin-top: 14px;
 }
 
+.mainmenu li {
+    width: 70%;
+    float: left;
+}
+
+.mainmenu li{
+
+	text-decoration: underline;
+}
+
 	.line{
 
 		display: none;
 	}
 
-<<<<<<< Updated upstream
-=======
+	.mainline{
+
+		display: none;
+
+	}
+
+
 	.menu a{
 
 		color: black;
@@ -341,11 +395,6 @@ nav ul {
 	color: grey;
 }
 
-
-	
-
-
->>>>>>> Stashed changes
 
  iframe {
 
@@ -374,9 +423,6 @@ nav ul {
 
 
 }
-
-
-
 
 
 .video nav {

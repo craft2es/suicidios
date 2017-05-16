@@ -4,6 +4,9 @@ $(document).ready(function($) {
 		$(".nav").slideToggle("fast")
 	});
 
+	$(".hamburgerdos").click(function (){
+		$(".navdos").slideToggle("fast")
+	});
 
 
 
