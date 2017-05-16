@@ -129,6 +129,15 @@ nav {
 	float: left;
 }
 
+.link {
+	text-decoration: none;
+	color: #326891;
+}
+
+.link:hover {
+	color:grey;
+}
+
 .mainline {
 	display: block;
 	width: 20%;
