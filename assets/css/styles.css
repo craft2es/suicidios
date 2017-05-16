@@ -93,13 +93,13 @@ nav {
 .navsto{
 	text-align: center;
 	margin-top: 25px;
-	    width: 105%;
+	width: 105%;
 }
 
 .navid{
 	text-align: center;
 	margin-top: 25px;
-	    width: 105%;
+	width: 105%;
 
 }
 
@@ -160,6 +160,15 @@ nav {
 	float: left;
 }
 
+.hamburger{
+
+	display: none;	
+    font-size: 50px;
+    color: white;
+    float: left;
+    margin-left: 19px;
+}
+
 .mainmenu {
 	position: relative;
     display: block;
@@ -173,6 +182,7 @@ nav {
 nav ul {
 	list-style: none;
 	margin: 0 auto;
+
 }
 
 
@@ -184,7 +194,7 @@ nav ul {
 
 .mainmenu li{
 width: 20%;
-	float: left;
+float: left;
 
 }
 
@@ -245,15 +255,96 @@ li a {
 	}
 
 	nav{
-		bottom: 500px;
+		    bottom: 604px;
 
 	}
+
+
+
+
+	/* Nav mobile*/
+
+.nav{
+	position: absolute;
+	top:78px;
+	background:white;
+	border:5px solid black;
+	font-family: 'Cabin', sans-serif;
+	font-size:30px;
+	text-align: center;
+	width: 124px;
+	display: none;
+	    height: 174px;
+}
+.nav-item{
+	border-top:3px solid white;
+	border-bottom:3px solid white;
+	height:50px;
+	line-height: 50px;
+	cursor: pointer;
+	transition:0.25s all;
+}
+
+.hamburger{
+display: inline-block;
+transition:0.25s all;
+
+}
+
+.nav-item {
+	width: 50%;
+	float: left;
+	display: block;
+
+}
+
+.header-item{
+
+	display: inline-block;
+	width:33%;
+	margin:0;
+	padding:0 20px;
+	font-size:31px;
+	margin-top: 14px;
+}
 
 	.line{
 
 		display: none;
 	}
 
+<<<<<<< Updated upstream
+=======
+	.menu a{
+
+		color: black;
+		text-decoration: underline; 
+		padding: 15px 0;
+		text-align: center;
+	}
+
+	
+	.menu li {
+    width: 51%;
+    float: left;
+
+}
+
+nav ul {
+	
+	 margin: -28px -133px;
+
+}
+
+.menu a:hover {
+	color: grey;
+}
+
+
+	
+
+
+>>>>>>> Stashed changes
 
  iframe {
 
@@ -268,9 +359,6 @@ li a {
 	padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
 
 	 margin-left: -18px;
-
-
-
 
 	}
 
@@ -573,6 +661,8 @@ vertical-align: middle;
 
 
 }
+
+
 
 
 
