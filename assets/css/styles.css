@@ -14,13 +14,9 @@ html, body {
 	font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
 	padding: 0;
 	margin: 0;
-<<<<<<< HEAD
 	margin-right: -37px;
-=======
 	width: 100%;
->>>>>>> origin/master
 }
-
 
 .head-img {
   position: fixed;
@@ -109,8 +105,6 @@ nav {
 	font-size: 20px;
 }
 
-<<<<<<< HEAD
-=======
 .subhead {
 	max-width: 620px;
 	margin: 27px auto;
@@ -126,8 +120,6 @@ nav {
 	font-family: 'Bebas Neue','Helvetica Neue', Helvetica, Arial ,sans-serif;
 	font-size: 36px;
 }
-
->>>>>>> origin/master
 .line {
 	display: block;
 	width: 35%;
