@@ -101,7 +101,33 @@ nav {
 
 }
 
+.ingles {
+	max-width: 620px;
+	margin: 27px auto;
+	line-height: 1.9rem;
+	font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
+	font-size: 20px;
+}
 
+<<<<<<< HEAD
+=======
+.subhead {
+	max-width: 620px;
+	margin: 27px auto;
+	line-height: 1.9rem;
+	font-family: 'Bebas Neue','Helvetica Neue', Helvetica, Arial ,sans-serif;
+	font-size: 36px;
+}
+
+.asterisk {
+	max-width: 620px;
+	margin: 27px auto;
+	line-height: 1.9rem;
+	font-family: 'Bebas Neue','Helvetica Neue', Helvetica, Arial ,sans-serif;
+	font-size: 36px;
+}
+
+>>>>>>> origin/master
 .line {
 	display: block;
 	width: 35%;
@@ -349,16 +375,16 @@ section iframe {
 
 .pullquote{
 font-family: 'Montserrat', Helvetica, Arial ,sans-serif;
-font-size: 25px;
- line-height: 36px;
- text-align: center;
- width:200px;
+font-size: 28px;
+ line-height: 55px;
+ text-align: left: ;
+ width: 620px;
  margin:0 0 3px 15px;
  padding:5px 0 5px 0;
- border-top:3px double #999;
- border-bottom:3px double #999;
+ border-top:1px double #999;
+ border-bottom:1px double #999;
  font-style: italic;
-     margin-left: 610px;
+ margin: 0 auto;
 
    } 
 .quotecenter{
